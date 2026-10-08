@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Hub</title>
+    <!-- Linking our CSS file (we will make this next) -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Professional Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">English Learning Hub</div>
+        <ul class="nav-links">
+            <li><a href="#notifications">Announcements</a></li>
+            <li><a href="#materials">Study Materials</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Welcome Section -->
+    <header class="hero">
+        <h1>Welcome to Your English Classroom</h1>
+        <p>Your central place for English notes, PDFs, assignments, announcements, and study materials.</p>
+        <a href="#materials" class="btn-primary">View Study Materials</a>
+    </header>
+
+    <main class="container">
+        <!-- Notifications Section -->
+        <section id="notifications" class="section">
+            <div class="section-header">
+                <h2>Latest Notifications</h2>
+            </div>
+            
+            <!-- Sample Notification Card -->
+            <div class="grid-list" id="notification-list">
+                <div class="card">
+                    <span class="badge important">Urgent</span>
+                    <h3>Welcome to the new portal</h3>
+                    <p>This is where your sir will post all important announcements and test dates. Keep checking this section.</p>
+                    <small style="color: #64748b; margin-bottom: 1rem; font-weight: 600;">8 October 2026</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Materials Section -->
+        <section id="materials" class="section">
+            <div class="section-header">
+                <h2>Study Materials & PDFs</h2>
+                <input type="text" class="search-bar" id="searchBar" placeholder="Search notes, grammar...">
+            </div>
+            
+            <!-- Sample Material Cards -->
+            <div class="grid-list" id="material-list">
+                
+                <div class="card">
+                    <span class="badge">Grammar</span>
+                    <h3>Class 10 - Tenses Notes</h3>
+                    <p>Complete breakdown of past, present, and future tenses with examples.</p>
+                    <small style="color: #64748b; margin-bottom: 1rem;">PDF Document</small>
+                    <button class="btn-primary">Open PDF</button>
+                </div>
+
+                <div class="card">
+                    <span class="badge">Literature</span>
+                    <h3>Chapter 1 - Summary</h3>
+                    <p>Detailed summary and important questions for the upcoming unit test.</p>
+                    <small style="color: #64748b; margin-bottom: 1rem;">Google Drive Link</small>
+                    <button class="btn-primary" style="background: #0ea5e9;">Open in Drive</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
